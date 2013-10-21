@@ -1,6 +1,6 @@
 //
-//  EPSStaticTableViewControllerTests.m
-//  EPSStaticTableViewControllerTests
+//  StaticTableViewExampleTests.m
+//  StaticTableViewExampleTests
 //
 //  Created by Peter Stuart on 10/21/13.
 //  Copyright (c) 2013 Electric Peel, LLC. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface EPSStaticTableViewControllerTests : XCTestCase
+@interface StaticTableViewExampleTests : XCTestCase
 
 @end
 
-@implementation EPSStaticTableViewControllerTests
+@implementation StaticTableViewExampleTests
 
 - (void)setUp
 {

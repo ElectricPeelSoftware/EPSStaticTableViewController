@@ -10,8 +10,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.ios.deployment_target = '6.0'
-  s.osx.deployment_target = '10.8'
-
+  
   s.public_header_files = 'EPSStaticTableViewController/*.h'
   s.source_files = 'EPSStaticTableViewController/*'
 end

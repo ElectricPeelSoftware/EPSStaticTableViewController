@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.homepage = 'https://github.com/ElectricPeelSoftware/EPSStaticTableViewController'
   s.authors  = { 'Peter Stuart' => 'peter@electricpeelsoftware.com', 'Justin Stuart' => 'justin@electricpeelsoftware.com' }
-  s.source   = { :git => 'https://github.com/ElectricPeelSoftware/EPSStaticTableViewController.git', :tag => "1.0" }
+  s.source   = { :git => 'https://github.com/ElectricPeelSoftware/EPSStaticTableViewController.git', :tag => "1.0.1" }
   s.requires_arc = true
 
   s.ios.deployment_target = '6.0'

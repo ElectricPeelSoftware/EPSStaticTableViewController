@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'EPSStaticTableViewController'
-  s.version  = '1.0'
+  s.version  = '1.0.1'
   s.license  = 'MIT'
   s.summary = 'A subclass of UITableViewController that makes it easy to set up table views with static content.'
   s.platform = :ios

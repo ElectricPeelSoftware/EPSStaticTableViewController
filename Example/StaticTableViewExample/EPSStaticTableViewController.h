@@ -27,13 +27,13 @@
  \param identifier An \c NSString object provided in the identifiers method
  \param indexPath The index path associated with the identifier
  \param tableView A table-view object requesting the cell
- \returns An object inheriting from UITableViewCell that the table view can use for the specified identifier.
+ \returns An object inheriting from \c UITableViewCell that the table view can use for the specified identifier.
  */
-- (UITableViewCell *)cellForIdentifier:(NSString *)identifier  indexPath:(NSIndexPath *)indexPath withTableView:(UITableView *)tableView;
+- (UITableViewCell *)cellForIdentifier:(NSString *)identifier indexPath:(NSIndexPath *)indexPath withTableView:(UITableView *)tableView;
 
 /*! Tells the view controller that the row corresponding to the specified identifier is now selected.
  \param identifier An \c NSString object provided in the identifiers method
-  \param indexPath The index path associated with the identifier
+ \param indexPath The index path associated with the identifier
  \param tableView A table-view object informing the view controller about the new row selection
  */
 - (void)didSelectRowWithIdentifier:(NSString *)identifier indexPath:(NSIndexPath *)indexPath withTableView:(UITableView *)tableView;

@@ -18,7 +18,7 @@ In this method, return an array of arrays of `NSString` objects. Each inner arra
 will result in a table view with three sections, containing two, one, and three rows, respectively.
 
 ```objective-c
-- (UITableViewCell *)cellForIdentifier:(NSString *)identifier  indexPath:(NSIndexPath *)indexPath withTableView:(UITableView *)tableView
+- (UITableViewCell *)cellForIdentifier:(NSString *)identifier indexPath:(NSIndexPath *)indexPath withTableView:(UITableView *)tableView
 ```
 
 This method works pretty much like the `UITableViewDelegate` method `tableView:cellForRowAtIndexPath:`, but you can use `identifier` to decide how to set up the cell, instead of using `indexPath`.

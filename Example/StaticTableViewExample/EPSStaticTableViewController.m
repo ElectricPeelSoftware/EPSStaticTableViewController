@@ -33,7 +33,7 @@
     return nil;
 }
 
-- (UITableViewCell *)cellForIdentifier:(NSString *)indentifier indexPath:(NSIndexPath *)indexPath withTableView:(UITableView *)tableView {
+- (UITableViewCell *)cellForIdentifier:(NSString *)identifier indexPath:(NSIndexPath *)indexPath withTableView:(UITableView *)tableView {
     return nil;
 }
 

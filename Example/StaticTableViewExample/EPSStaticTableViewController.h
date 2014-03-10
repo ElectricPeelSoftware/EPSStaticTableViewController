@@ -20,22 +20,23 @@
 
 /*! Asks for an array of arrays of NSString objects, which will be used to determine the number of rows and sections in the table view. For example: \code return @[ @[ @"One", @"Two" ], @[ @"Three", @"Four" ] ]\endcode
  \returns An array of arrays of identifiers. Defaults to \c nil.
+ \note The identifiers must be unique.
  */
 - (NSArray *)identifiers;
 
 /*! Asks for a cell for use in the row corresponding to the given identifier.
+ \param tableView A table-view object requesting the cell
  \param identifier An \c NSString object provided in the identifiers method
  \param indexPath The index path associated with the identifier
- \param tableView A table-view object requesting the cell
  \returns An object inheriting from \c UITableViewCell that the table view can use for the specified identifier.
  */
-- (UITableViewCell *)cellForIdentifier:(NSString *)identifier indexPath:(NSIndexPath *)indexPath withTableView:(UITableView *)tableView;
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowWithIdentifier:(NSString *)identifier indexPath:(NSIndexPath *)indexPath;
 
 /*! Tells the view controller that the row corresponding to the specified identifier is now selected.
+ \param tableView A table-view object informing the view controller about the new row selection
  \param identifier An \c NSString object provided in the identifiers method
  \param indexPath The index path associated with the identifier
- \param tableView A table-view object informing the view controller about the new row selection
  */
-- (void)didSelectRowWithIdentifier:(NSString *)identifier indexPath:(NSIndexPath *)indexPath withTableView:(UITableView *)tableView;
+- (void)tableView:(UITableView *)tableView didSelectRowWithIdentifier:(NSString *)identifier indexPath:(NSIndexPath *)indexPath;
 
 @end

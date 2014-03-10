@@ -20,7 +20,7 @@ NSString * const EPSExampleViewControllerCellIdentifier = @"Cell";
     return @[ @[ @"One", @"Two" ], @[ @"Three", @"Four" ] ];
 }
 
-- (UITableViewCell *)cellForIdentifier:(NSString *)identifier  indexPath:(NSIndexPath *)indexPath withTableView:(UITableView *)tableView {
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowWithIdentifier:(NSString *)identifier indexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:EPSExampleViewControllerCellIdentifier];
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:EPSExampleViewControllerCellIdentifier];
@@ -37,7 +37,7 @@ NSString * const EPSExampleViewControllerCellIdentifier = @"Cell";
     return cell;
 }
 
-- (void)didSelectRowWithIdentifier:(NSString *)identifier indexPath:(NSIndexPath *)indexPath withTableView:(UITableView *)tableView {
+- (void)tableView:(UITableView *)tableView didSelectRowWithIdentifier:(NSString *)identifier indexPath:(NSIndexPath *)indexPath {
     NSString *title;
     if ([identifier isEqualToString:@"One"]) title = NSLocalizedString(@"Alert One", nil);
     else if ([identifier isEqualToString:@"Two"]) title = NSLocalizedString(@"Alert Two", nil);

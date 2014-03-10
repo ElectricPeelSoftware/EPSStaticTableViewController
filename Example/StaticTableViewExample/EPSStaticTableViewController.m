@@ -33,11 +33,12 @@
     return nil;
 }
 
-- (UITableViewCell *)cellForIdentifier:(NSString *)identifier indexPath:(NSIndexPath *)indexPath withTableView:(UITableView *)tableView {
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowWithIdentifier:(NSString *)identifier indexPath:(NSIndexPath *)indexPath {
     return nil;
 }
 
-- (void)didSelectRowWithIdentifier:(NSString *)identifier indexPath:(NSIndexPath *)indexPath withTableView:(UITableView *)tableView {
+- (void)tableView:(UITableView *)tableView didSelectRowWithIdentifier:(NSString *)identifier indexPath:(NSIndexPath *)indexPath {
+    
 }
 
 #pragma mark - Private Methods
@@ -60,8 +61,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString *identifier = [self identifierForIndexPath:indexPath];
-    
-    UITableViewCell *cell = [self cellForIdentifier:identifier indexPath:indexPath withTableView:tableView];
+    UITableViewCell *cell = [self tableView:tableView cellForRowWithIdentifier:identifier indexPath:indexPath];
     
     return cell;
 }
@@ -70,7 +70,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString *identifier = [self identifierForIndexPath:indexPath];
-    [self didSelectRowWithIdentifier:identifier indexPath:indexPath withTableView:tableView];
+    [self tableView:tableView didSelectRowWithIdentifier:identifier indexPath:indexPath];
 }
 
 @end

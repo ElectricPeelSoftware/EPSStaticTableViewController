@@ -14,24 +14,9 @@
 		D0DA22651815AC710081399E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DA22641815AC710081399E /* main.m */; };
 		D0DA22691815AC710081399E /* EPSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DA22681815AC710081399E /* EPSAppDelegate.m */; };
 		D0DA226B1815AC710081399E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DA226A1815AC710081399E /* Images.xcassets */; };
-		D0DA22721815AC710081399E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DA22711815AC710081399E /* XCTest.framework */; };
-		D0DA22731815AC710081399E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DA22581815AC710081399E /* Foundation.framework */; };
-		D0DA22741815AC710081399E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DA225C1815AC710081399E /* UIKit.framework */; };
-		D0DA227C1815AC710081399E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0DA227A1815AC710081399E /* InfoPlist.strings */; };
-		D0DA227E1815AC710081399E /* StaticTableViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DA227D1815AC710081399E /* StaticTableViewExampleTests.m */; };
 		D0DA22891815ACB50081399E /* EPSStaticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DA22881815ACB50081399E /* EPSStaticTableViewController.m */; };
 		D0DA228C1815ACC60081399E /* EPSExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DA228B1815ACC60081399E /* EPSExampleViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D0DA22751815AC710081399E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D0DA224D1815AC700081399E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D0DA22541815AC710081399E;
-			remoteInfo = StaticTableViewExample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D0DA22551815AC710081399E /* StaticTableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticTableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,11 +30,7 @@
 		D0DA22671815AC710081399E /* EPSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPSAppDelegate.h; sourceTree = "<group>"; };
 		D0DA22681815AC710081399E /* EPSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPSAppDelegate.m; sourceTree = "<group>"; };
 		D0DA226A1815AC710081399E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D0DA22701815AC710081399E /* StaticTableViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaticTableViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DA22711815AC710081399E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D0DA22791815AC710081399E /* StaticTableViewExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StaticTableViewExampleTests-Info.plist"; sourceTree = "<group>"; };
-		D0DA227B1815AC710081399E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D0DA227D1815AC710081399E /* StaticTableViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticTableViewExampleTests.m; sourceTree = "<group>"; };
 		D0DA22871815ACB50081399E /* EPSStaticTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPSStaticTableViewController.h; sourceTree = "<group>"; };
 		D0DA22881815ACB50081399E /* EPSStaticTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPSStaticTableViewController.m; sourceTree = "<group>"; };
 		D0DA228A1815ACC60081399E /* EPSExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPSExampleViewController.h; sourceTree = "<group>"; };
@@ -67,16 +48,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0DA226D1815AC710081399E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0DA22721815AC710081399E /* XCTest.framework in Frameworks */,
-				D0DA22741815AC710081399E /* UIKit.framework in Frameworks */,
-				D0DA22731815AC710081399E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				D0DA225E1815AC710081399E /* StaticTableViewExample */,
-				D0DA22771815AC710081399E /* StaticTableViewExampleTests */,
 				D0DA22571815AC710081399E /* Frameworks */,
 				D0DA22561815AC710081399E /* Products */,
 			);
@@ -97,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				D0DA22551815AC710081399E /* StaticTableViewExample.app */,
-				D0DA22701815AC710081399E /* StaticTableViewExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,24 +107,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D0DA22771815AC710081399E /* StaticTableViewExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				D0DA227D1815AC710081399E /* StaticTableViewExampleTests.m */,
-				D0DA22781815AC710081399E /* Supporting Files */,
-			);
-			path = StaticTableViewExampleTests;
-			sourceTree = "<group>";
-		};
-		D0DA22781815AC710081399E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D0DA22791815AC710081399E /* StaticTableViewExampleTests-Info.plist */,
-				D0DA227A1815AC710081399E /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		D0DA228D1815ACD20081399E /* EPSStaticTableViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,24 +137,6 @@
 			productReference = D0DA22551815AC710081399E /* StaticTableViewExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D0DA226F1815AC710081399E /* StaticTableViewExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D0DA22841815AC710081399E /* Build configuration list for PBXNativeTarget "StaticTableViewExampleTests" */;
-			buildPhases = (
-				D0DA226C1815AC710081399E /* Sources */,
-				D0DA226D1815AC710081399E /* Frameworks */,
-				D0DA226E1815AC710081399E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D0DA22761815AC710081399E /* PBXTargetDependency */,
-			);
-			name = StaticTableViewExampleTests;
-			productName = StaticTableViewExampleTests;
-			productReference = D0DA22701815AC710081399E /* StaticTableViewExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -213,11 +146,6 @@
 				CLASSPREFIX = EPS;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Electric Peel, LLC";
-				TargetAttributes = {
-					D0DA226F1815AC710081399E = {
-						TestTargetID = D0DA22541815AC710081399E;
-					};
-				};
 			};
 			buildConfigurationList = D0DA22501815AC700081399E /* Build configuration list for PBXProject "StaticTableViewExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -232,7 +160,6 @@
 			projectRoot = "";
 			targets = (
 				D0DA22541815AC710081399E /* StaticTableViewExample */,
-				D0DA226F1815AC710081399E /* StaticTableViewExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,14 +171,6 @@
 			files = (
 				D0DA22631815AC710081399E /* InfoPlist.strings in Resources */,
 				D0DA226B1815AC710081399E /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0DA226E1815AC710081399E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0DA227C1815AC710081399E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,37 +205,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0DA226C1815AC710081399E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0DA227E1815AC710081399E /* StaticTableViewExampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D0DA22761815AC710081399E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D0DA22541815AC710081399E /* StaticTableViewExample */;
-			targetProxy = D0DA22751815AC710081399E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D0DA22611815AC710081399E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D0DA22621815AC710081399E /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D0DA227A1815AC710081399E /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0DA227B1815AC710081399E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -445,46 +340,6 @@
 			};
 			name = Release;
 		};
-		D0DA22851815AC710081399E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StaticTableViewExample.app/StaticTableViewExample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "StaticTableViewExample/StaticTableViewExample-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "StaticTableViewExampleTests/StaticTableViewExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		D0DA22861815AC710081399E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StaticTableViewExample.app/StaticTableViewExample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "StaticTableViewExample/StaticTableViewExample-Prefix.pch";
-				INFOPLIST_FILE = "StaticTableViewExampleTests/StaticTableViewExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -502,15 +357,6 @@
 			buildConfigurations = (
 				D0DA22821815AC710081399E /* Debug */,
 				D0DA22831815AC710081399E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D0DA22841815AC710081399E /* Build configuration list for PBXNativeTarget "StaticTableViewExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D0DA22851815AC710081399E /* Debug */,
-				D0DA22861815AC710081399E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

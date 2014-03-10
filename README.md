@@ -19,16 +19,16 @@ In this method, return an array of arrays of `NSString` objects. Each inner arra
 will result in a table view with three sections, containing two, one, and three rows, respectively.
 
 ```objective-c
-- (UITableViewCell *)cellForIdentifier:(NSString *)identifier indexPath:(NSIndexPath *)indexPath withTableView:(UITableView *)tableView
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowWithIdentifier:(NSString *)identifier indexPath:(NSIndexPath *)indexPath
 ```
 
-This method works pretty much like the `UITableViewDelegate` method `tableView:cellForRowAtIndexPath:`, but you can use `identifier` to decide how to set up the cell, instead of using `indexPath`.
+This method replaces the `UITableViewDelegate` method `tableView:cellForRowAtIndexPath:`, making it so that you can use `identifier` to decide how to set up the cell, instead of using `indexPath`.
 
 ```objective-c
-- (void)didSelectRowWithIdentifier:(NSString *)identifier indexPath:(NSIndexPath *)indexPath withTableView:(UITableView *)tableView
+- (void)tableView:(UITableView *)tableView didSelectRowWithIdentifier:(NSString *)identifier indexPath:(NSIndexPath *)indexPath
 ```
 
-This method works like the `UITableViewDelegate` method `tableView:didSelectRowAtIndexPath:`, but you can use `identifier` to decide what action to take, instead of using `indexPath`.
+This method replaces the `UITableViewDelegate` method `tableView:didSelectRowAtIndexPath:`, making it so that you can use `identifier` to decide what action to take, instead of using `indexPath`.
 
 ## Installation
 

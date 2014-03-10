@@ -1,7 +1,8 @@
-EPSStaticTableViewController
-============================
+# EPSStaticTableViewController
 
 `EPSStaticTableViewController` is a subclass of `UITableViewController` that makes it easy to set up table views with static content.
+
+## Usage
 
 To use `EPSStaticTableViewController`, subclass it and override these methods:
 
@@ -28,3 +29,17 @@ This method works pretty much like the `UITableViewDelegate` method `tableView:c
 ```
 
 This method works like the `UITableViewDelegate` method `tableView:didSelectRowAtIndexPath:`, but you can use `identifier` to decide what action to take, instead of using `indexPath`.
+
+## Installation
+
+EPSStaticTableVIewController is available through [CocoaPods](http://cocoapods.org), to install it simply add the following line to your Podfile:
+
+```ruby
+pod "EPSStaticTableViewController"
+```
+
+Alternatively, include `EPSStaticTableViewController.h` and `EPSStaticTableViewController.m` in your project.
+
+## License
+
+EPSStaticTableViewController is available under the MIT license. See the LICENSE file for more info.

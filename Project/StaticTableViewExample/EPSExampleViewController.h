@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Electric Peel, LLC. All rights reserved.
 //
 
-#import "EPSStaticTableViewController.h"
+#import <EPSStaticTableViewController/EPSStaticTableViewController.h>
 
 @interface EPSExampleViewController : EPSStaticTableViewController
 

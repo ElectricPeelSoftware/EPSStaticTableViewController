@@ -14,11 +14,13 @@
 		D0DA22651815AC710081399E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DA22641815AC710081399E /* main.m */; };
 		D0DA22691815AC710081399E /* EPSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DA22681815AC710081399E /* EPSAppDelegate.m */; };
 		D0DA226B1815AC710081399E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DA226A1815AC710081399E /* Images.xcassets */; };
-		D0DA22891815ACB50081399E /* EPSStaticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DA22881815ACB50081399E /* EPSStaticTableViewController.m */; };
 		D0DA228C1815ACC60081399E /* EPSExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DA228B1815ACC60081399E /* EPSExampleViewController.m */; };
+		E966C1B69D1A494BB98C3DF0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 245F24820DB945779D4FB32A /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		245F24820DB945779D4FB32A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AE13C1E0BE491498255340 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		D0DA22551815AC710081399E /* StaticTableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticTableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DA22581815AC710081399E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D0DA225A1815AC710081399E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -31,8 +33,6 @@
 		D0DA22681815AC710081399E /* EPSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPSAppDelegate.m; sourceTree = "<group>"; };
 		D0DA226A1815AC710081399E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D0DA22711815AC710081399E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D0DA22871815ACB50081399E /* EPSStaticTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPSStaticTableViewController.h; sourceTree = "<group>"; };
-		D0DA22881815ACB50081399E /* EPSStaticTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPSStaticTableViewController.m; sourceTree = "<group>"; };
 		D0DA228A1815ACC60081399E /* EPSExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPSExampleViewController.h; sourceTree = "<group>"; };
 		D0DA228B1815ACC60081399E /* EPSExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPSExampleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,6 +45,7 @@
 				D0DA225B1815AC710081399E /* CoreGraphics.framework in Frameworks */,
 				D0DA225D1815AC710081399E /* UIKit.framework in Frameworks */,
 				D0DA22591815AC710081399E /* Foundation.framework in Frameworks */,
+				E966C1B69D1A494BB98C3DF0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +58,7 @@
 				D0DA225E1815AC710081399E /* StaticTableViewExample */,
 				D0DA22571815AC710081399E /* Frameworks */,
 				D0DA22561815AC710081399E /* Products */,
+				29AE13C1E0BE491498255340 /* Pods.xcconfig */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -78,6 +80,7 @@
 				D0DA225A1815AC710081399E /* CoreGraphics.framework */,
 				D0DA225C1815AC710081399E /* UIKit.framework */,
 				D0DA22711815AC710081399E /* XCTest.framework */,
+				245F24820DB945779D4FB32A /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -85,7 +88,6 @@
 		D0DA225E1815AC710081399E /* StaticTableViewExample */ = {
 			isa = PBXGroup;
 			children = (
-				D0DA228D1815ACD20081399E /* EPSStaticTableViewController */,
 				D0DA228A1815ACC60081399E /* EPSExampleViewController.h */,
 				D0DA228B1815ACC60081399E /* EPSExampleViewController.m */,
 				D0DA22671815AC710081399E /* EPSAppDelegate.h */,
@@ -107,15 +109,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D0DA228D1815ACD20081399E /* EPSStaticTableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				D0DA22871815ACB50081399E /* EPSStaticTableViewController.h */,
-				D0DA22881815ACB50081399E /* EPSStaticTableViewController.m */,
-			);
-			name = EPSStaticTableViewController;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,10 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0DA22811815AC710081399E /* Build configuration list for PBXNativeTarget "StaticTableViewExample" */;
 			buildPhases = (
+				86A97DF1812847A2BE758D87 /* Check Pods Manifest.lock */,
 				D0DA22511815AC710081399E /* Sources */,
 				D0DA22521815AC710081399E /* Frameworks */,
 				D0DA22531815AC710081399E /* Resources */,
 				14F0C671545840E0B3FF5BD4 /* Warn for TODO and FIXME comments */,
+				AC3AB6DB67D44B8CA6B7D6D6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +186,36 @@
 			shellPath = /bin/sh;
 			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
 		};
+		86A97DF1812847A2BE758D87 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC3AB6DB67D44B8CA6B7D6D6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -201,7 +226,6 @@
 				D0DA228C1815ACC60081399E /* EPSExampleViewController.m in Sources */,
 				D0DA22651815AC710081399E /* main.m in Sources */,
 				D0DA22691815AC710081399E /* EPSAppDelegate.m in Sources */,
-				D0DA22891815ACB50081399E /* EPSStaticTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +339,7 @@
 		};
 		D0DA22821815AC710081399E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29AE13C1E0BE491498255340 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -328,6 +353,7 @@
 		};
 		D0DA22831815AC710081399E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29AE13C1E0BE491498255340 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

@@ -1,5 +1,10 @@
 # EPSStaticTableViewController
 
+[![CI Status](http://img.shields.io/travis/ElectricPeelSoftware/EPSStaticTableViewController.svg?style=flat)](https://travis-ci.org/ElectricPeelSoftware/EPSStaticTableViewController)
+[![Version](https://img.shields.io/cocoapods/v/EPSStaticTableViewController.svg?style=flat)](http://cocoadocs.org/docsets/EPSStaticTableViewController)
+[![License](https://img.shields.io/cocoapods/l/EPSStaticTableViewController.svg?style=flat)](http://cocoadocs.org/docsets/EPSStaticTableViewController)
+[![Platform](https://img.shields.io/cocoapods/p/EPSStaticTableViewController.svg?style=flat)](http://cocoadocs.org/docsets/EPSStaticTableViewController)
+
 `EPSStaticTableViewController` is a subclass of `UITableViewController` that makes it easy to set up table views with static content.
 
 ## Usage

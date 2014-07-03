@@ -1,3 +1,9 @@
 platform :ios, '7.0'
 
-pod "EPSStaticTableViewController", :path => "../EPSStaticTableViewController.podspec"
+target 'StaticTableViewExample', :exclusive => true do
+	pod "EPSStaticTableViewController", :path => "../EPSStaticTableViewController.podspec"
+end
+
+target 'Tests', :exclusive => true do
+  pod "EPSStaticTableViewController", :path => "../"
+end

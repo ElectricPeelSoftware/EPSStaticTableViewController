@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>29B188B3-FCE6-4850-8F66-F9B29985A3DB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tests</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E856C19F-AF7D-4FA5-B6E9-6A42C4944817</key>
+		<string>https://github.com/ElectricPeelSoftware/EPSStaticTableViewController.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tests/Tests.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E856C19F-AF7D-4FA5-B6E9-6A42C4944817</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ElectricPeelSoftware/EPSStaticTableViewController.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E856C19F-AF7D-4FA5-B6E9-6A42C4944817</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E856C19F-AF7D-4FA5-B6E9-6A42C4944817</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EPSStaticTableViewController</string>
+		</dict>
+	</array>
+</dict>
+</plist>
